@@ -1,0 +1,14 @@
+{
+  "name": "saintjoseph",
+  "version": "1.0.0",
+  "description": "Bootstrap Education website",
+  "author": "debapriya",
+  "license": "tintin",
+  "scripts": {
+    "dev": "gulp"
+  },
+  "dependencies": {
+    "browser-sync": "^3.0.2",
+    "gulp": "^5.0.0"
+  }
+}
