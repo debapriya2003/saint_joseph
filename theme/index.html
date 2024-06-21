@@ -61,7 +61,7 @@
                                             <img style="height: 100px; margin: 0px;" src="assets/images/School Logo.png" alt="logo">
                                         </a>
                                     </li>
-                                    <li><a href="gallary.html">Gallary</a></li>                                   
+                                    <li><a href="gallary.html">Gallery</a></li>                                   
                                     <li><a href="contact.html">Contact</a></li>
                                     <li><a href="prospectus.html">Prospectus</a></li>
                                 </ul>
@@ -82,7 +82,7 @@
 
     <!-- Section 1: Hero Section -->
 <!-- Section 1: Hero Section -->
-<section style="  padding: 200 px; margin-top: 130px;        position: relative;">
+<section style="  padding: 200 px; margin-top: 130px; position: relative;">
     <div id="heroCarousel" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
             <li data-target="#heroCarousel" data-slide-to="0" class="active"></li>
@@ -120,28 +120,41 @@
 </section>
 
 <!-- Section 2: Featured Programs -->
-<section style="  margin-left: 10px;   padding: 80px 0; background-color: #ffffff;">
-    <div style="max-width: 1000px; margin: 0 auto; text-align: center;">
-        <h2 style="font-size: 2rem; margin-right: 30px;">Glimpses of our Campus </h2>
-        <div style="display: flex; justify-content: space-between; flex-wrap: wrap;">
-            <div style="max-width: 300px; margin-bottom: 30px;">
+<section class="campus-glimpses" style="margin-left: 10px; position: relative; padding: 40px 20px; background-color: #ffffff;">
+    <div class="glimpses-container" style="max-width: 1000px; margin: auto; text-align: center;">
+        <h2 class="glimpses-title" style="font-size: 1.8rem; margin-bottom: 30px;">Glimpses of our Campus</h2>
+        <div class="programs-wrapper" style="display: flex; flex-direction: column; align-items: center;">
+            <div class="program-card program-education" style="max-width: 300px; margin-bottom: 30px; width: 100%;">
                 <img src="assets/SCHOOL WEBSITE DETAILS-20240503T184639Z-001/SCHOOL WEBSITE DETAILS/GALLERY/CLASS 9.jpg" alt="Program 1" style="max-width: 100%; height: auto;">
-                <h3 style="font-size: 1.5rem; margin-top: 20px;">Education</h3>
-                <p style="font-size: 15px; line-height: 1.4;">Explore the exciting world of science  and mathematics with our cutting-edge STEM program.</p>
+                <h3 class="program-title" style="font-size: 1.3rem; margin-top: 20px;">Education</h3>
+                <p class="program-description" style="font-size: 14px; line-height: 1.4;">Explore the exciting world of science and mathematics with our cutting-edge STEM program.</p>
             </div>
-            <div style="max-width: 300px; margin-bottom: 30px;">
+            <div class="program-card program-arts" style="max-width: 300px; margin-bottom: 30px; width: 100%;">
                 <img src="assets/SCHOOL WEBSITE DETAILS-20240503T184639Z-001/SCHOOL WEBSITE DETAILS/HOME PAGE/DRAMA IN SCHOOL.jpg" alt="Program 2" style="max-width: 100%; height: auto;">
-                <h3 style="font-size: 1.5rem; margin-top: 20px;">Arts and Culture</h3>
-                <p style="font-size: 15px; line-height: 1.4;">Unleash your creativity and explore the rich tapestry of arts and culture through our diverse range of programs.</p>
+                <h3 class="program-title" style="font-size: 1.3rem; margin-top: 20px;">Arts and Culture</h3>
+                <p class="program-description" style="font-size: 14px; line-height: 1.4;">Unleash your creativity and explore the rich tapestry of arts and culture through our diverse range of programs.</p>
             </div>
-            <div style="max-width: 300px; margin-bottom: 30px;">
+            <div class="program-card program-leadership" style="max-width: 300px; margin-bottom: 30px; width: 100%;">
                 <img src="assets/SCHOOL WEBSITE DETAILS-20240503T184639Z-001/SCHOOL WEBSITE DETAILS/GALLERY/INTER SCHOOL CRICKET TOURNAMENT.jpg" alt="Program 3" style="max-width: 100%; height: auto;">
-                <h3 style="font-size: 1.5rem; margin-top: 20px;">Leadership Development</h3>
-                <p style="font-size: 15px; line-height: 1.4;">Cultivate essential leadership skills and unlock your potential to become a confident and capable leader.</p>
+                <h3 class="program-title" style="font-size: 1.3rem; margin-top: 20px;">Leadership Development</h3>
+                <p class="program-description" style="font-size: 14px; line-height: 1.4;">Cultivate essential leadership skills and unlock your potential to become a confident and capable leader.</p>
             </div>
         </div>
     </div>
 </section>
+
+<style>
+    @media (min-width: 768px) {
+        .programs-wrapper {
+            flex-direction: row !important;
+            justify-content: space-between !important;
+            align-items: flex-start !important;
+        }
+        .program-card {
+            width: 30% !important;
+        }
+    }
+</style>
             <!-- Section 3: Infinite Scroll -->
 <section style="background-color: #ffffff; padding: 10px; overflow: hidden;">
     <div style="max-width: 1200px; margin: 0 auto;">
