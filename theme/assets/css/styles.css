@@ -185,7 +185,7 @@ a:hover {
 
 .header-top {
   background-color: #fc9928;
-  padding: 10px 0;
+  padding: 4px 0;
 }
 
 .ht-address ul li {
@@ -279,7 +279,7 @@ a:hover {
 
 .main-menu nav ul li > a:hover,
 .main-menu nav ul li.active > a {
-  color: #fc9928;
+  color: #ffffff;
 }
 
 /*submenu*/
@@ -521,7 +521,7 @@ a:hover {
   display: block;
 }
 .primary-color {
-  color: #fc9928 !important;
+  color: #ffffff !important;
 }
 
 .text-color {
@@ -1199,7 +1199,7 @@ span.post-date i {
   top: calc(50% - 1px);
   height: 2px;
   width: 10px;
-  background: #fc9928;
+  background: #ffffff;
   opacity: 0;
   transition: all 0.3s ease 0s;
 }
@@ -1609,6 +1609,7 @@ span.post-date i {
   background: url(../images/bg/IMG_20240504_113732.jpg);
   padding: 500px 0 114px;
   background-size: cover;
+  margin-top: 100px;
 }
 
 .crumbs-area:before {
@@ -1634,7 +1635,7 @@ span.post-date i {
 }
 
 .crumb-content h4 span {
-  color: #fc9928;
+  color: #f88501;
 }
 
 .crumb-title {
